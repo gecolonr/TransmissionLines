@@ -34,8 +34,7 @@ end
 function build_M(N, tau, A0, A1)
     
     D = build_D(N)
-    
-    tau = 0.02
+
     C = -2*D/tau
     
     C_hat = C[1:N, 1:N+1]
